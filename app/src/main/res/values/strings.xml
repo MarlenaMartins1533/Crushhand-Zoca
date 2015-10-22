@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Crush hand - Zoca</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_informacoes">InformacoesActivity</string>
+
+<!--<string name="zoca"> Zoca Games  \t\t\t @MMM produções</string>
+<string name="equipe"> Marlena Martins e Jean Vidal</string>
+<string name="contatosequipe"> marlenamotamartins@gmail.com e j.vidalnunes@gmail.com</string>
+<string name="contatos">Contatos: Email: zocagames@gmail.com / Facebook: Zoca MMzoca / Blog: http://zocagames.blogspot.com.br/</string>-->
+
+    <string name="zocainfo">\n\n\n
+        \t * Marlena Martins\n
+        \t\t\t\t\t\tmarlenamotamartins@gmail.com \n
+        \t * Jean Vidal\n
+        \t\t\t\t\t\t j.vidalnunes@gmail.com \n\n\n
+
+
+        \t\t\t *Email: zocagames@gmail.com \n
+        \t\t\t *Facebook: Zoca MMzoca \n
+        \t\t\t *Blog: http://zocagames.blogspot.com.br/\n\n\n</string>
+
+<string name="title_activity_jogo">JogoActivity</string>
+<string name="title_activity_fases">fases</string>
+<string name="title_activity_win">winActivity</string>
+<string name="title_activity_fase12">Fase12</string>
+    <string name="title_activity_faseum">FaseumActivity</string>
+
+
+</resources>
