@@ -1,13 +1,13 @@
 package com.example.asus.crushhand_zoca;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-
+import android.widget.GridView;
+import android.support.v7.app.AppCompatActivity;
 
 public class FaseumActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -20,6 +20,26 @@ public class FaseumActivity extends AppCompatActivity implements View.OnClickLis
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faseum);
+
+        /*int[] lista = new int[]{R.drawable.a, R.drawable.b, R.drawable.c,
+                                R.drawable.d, R.drawable.e, R.drawable.f,
+                                R.drawable.g, R.drawable.h, R.drawable.fasesestrela};
+
+        GridView gv = (GridView) findViewById(R.id.gridView1);
+        gv.setAdapter(new Adaptador(this, lista));
+
+        GridLayout gv = new GridLayout(this);
+        for(int i=0; i<5; i++){
+            for(int j=0;j<5;j++){
+                GridLayout.Spec linha = GridLayout.spec(i);
+                GridLayout.Spec coluna = GridLayout.spec(j);
+                GridLayout.LayoutParams lp = new GridLayout.LayoutParams(linha, coluna);
+
+                ImageView iv = new ImageView(this);
+                iv.setImageResource(R.drawable.ic_launcher);
+
+            }
+        }*/
 
         btVoltar = (Button) findViewById(R.id.btVoltar);
         btVoltar.setOnClickListener(this);
